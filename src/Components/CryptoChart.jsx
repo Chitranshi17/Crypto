@@ -80,7 +80,7 @@ if(isError){
 }
   return (
     <>
-    <Box sx={{height:"85%"}}>
+    <Box sx={{height:"85vh"}}>
       <Line data={data} style={{width:"100%", height:"90%"}}/>
     </Box>
     </>

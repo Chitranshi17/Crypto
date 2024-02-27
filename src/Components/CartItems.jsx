@@ -28,31 +28,14 @@ const CartItems = ({ coin }) => {
       <Grid
         item
         lg={3}
-        md={6}
-        sm={12}
-        xs={6}
+        md={4}
+        sm={4}
+        xs={3}
         className="d-flex align-items-center justify-content-center"
       >
-        <Paper
-          sx={{
-            width: {
-              xs: 200,
-              sm: 200,
-              md: 400,
-              lg: 400,
-              xl: 400,
-            },
-            height: {
-              xs: 150,
-              sm: 180,
-              md: 250,
-              lg: 300,
-              xl: 300,
-            },
-            margin: "1rem",
-          }}
-          className="coinAllCard"
-        >
+        <Paper sx={{ width: "100%", 
+               height:"25rem"
+                }} className="coinAllCard">
           <Card
             sx={{
               height: "100%",

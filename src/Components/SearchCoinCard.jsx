@@ -12,7 +12,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import NoImg from "../assets/NoImg.png"
 const SearchCoinCard = ({ coin }) => {
-  console.log(coin)
+  // console.log(coin)
   const {large, name, id, symbol} = coin;
   return (
     <Grid

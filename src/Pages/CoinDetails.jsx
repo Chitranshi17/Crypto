@@ -154,7 +154,7 @@ const CoinDetails = () => {
             }}
           >
             <Box className="coinGraph mt-5 px-5 d-flex align-items-center justify-content-center flex-column">
-              <Typography variant="h4" sx={{ color: "white" , height:"15%"}}>
+              <Typography variant="h4" sx={{ color: "white" , height:"10rem"}}>
                 Coin Chart Based On Prices :
               </Typography>
               {/* <Chart
