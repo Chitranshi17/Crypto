@@ -18,19 +18,14 @@ const SearchCoinCard = ({ coin }) => {
     <Grid
       item
       lg={3}
-      md={6}
+      md={4}
       sm={4}
       xs={3}
       className="d-flex align-items-center justify-content-center"
     >
       <Paper sx={{ width: "100%", 
-                height: {
-                  xs: 0,
-                  sm: 600,
-                  md: 900,
-                  lg: 1200,
-                  xl: 300,
-                },}} className="coinAllCard">
+               height:"25rem"
+                }} className="coinAllCard">
         <Card
           sx={{
             width:"100%",
@@ -45,21 +40,13 @@ const SearchCoinCard = ({ coin }) => {
           <CardMedia
             component="img"
             alt="green iguana"
+            height="50%"
             sx={{
-            width: {
-              xs: 0,
-              sm: 600,
-              md: 0,
-              lg: 100,
-              xl: 140,
-            },   
-            height: {
-              xs: 900,
-              sm: 600,
-              md: 0,
-              lg: 1200,
-              xl: 140,
-            }, borderRadius: "50%" }}
+            width: "48%",
+            height: "50%",
+            borderRadius: "50%",
+            padding: "2rem"
+            , borderRadius: "50%" }}
             image={large ? large : NoImg }
           />
           <CardContent>

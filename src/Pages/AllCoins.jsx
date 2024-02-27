@@ -71,7 +71,7 @@ const AllCoins = () => {
           <div className="allCoinsData">
             <Grid container spacing={2} sx={{ padding: "1rem" }}>
               {allCoins.map((coin) => (
-                <AllCoinCard key={coin.id} allCoin={coin} />
+                <AllCoinCard key={coin.id} coin={coin} />
               ))}
             </Grid>
           </div>

@@ -9,6 +9,7 @@ import {
   Paper,
   Typography,
 } from "@mui/material";
+import NoImg from "../assets/NoImg.png"
 import { Link } from "react-router-dom";
 const AllCoinCard = ({ coin }) => {
   const { name, image, current_price } = coin;
@@ -19,7 +20,7 @@ const AllCoinCard = ({ coin }) => {
       lg={3}
       md={4}
       sm={4}
-      xs={6}
+      xs={3}
       className="d-flex align-items-center justify-content-center"
     >
       <Paper sx={{ width: "100%", height: "25rem" }} className="coinAllCard">
@@ -43,7 +44,7 @@ const AllCoinCard = ({ coin }) => {
               borderRadius: "50%",
               padding: "2rem",
             }}
-            image={image}
+            image={image ? image : NoImg}
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
